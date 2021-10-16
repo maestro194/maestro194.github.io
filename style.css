@@ -1,0 +1,43 @@
+body{
+  font-family: "Fantasque Sans Mono","Montserrat", sans-serif;
+  font-size: 18.5px;
+  background-color: rgb(116, 103, 31);
+}
+
+/* * nav_bar */
+.nav_bar{
+  border: 1px solid rgb(238, 228, 228);
+}
+
+.nav_bar_list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 0 50px;
+  overflow: hidden;
+  background-color: rgb(8, 30, 48);
+}
+
+.nav_bar_list li{
+  float: left;
+}
+
+.nav_bar_a{
+  display: block;
+  color:rgb(207, 185, 59);
+  
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* * replay table */
+.replay{
+  width: 100%;
+}
+
+.replay th{
+  border: 3px solid rgb(238, 228, 228);
+  background-color: rgb(8, 30, 48);
+  color: rgb(207, 185, 59);
+}
+
